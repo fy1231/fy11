@@ -1,7 +1,6 @@
 {
     "pages": [
       "pages/logs/logs",
-        "pages/role/role",
  
     ],
     "window": {
