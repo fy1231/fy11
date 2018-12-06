@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/welcome/welcome",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/article/article",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "五行穿衣",
+    "navigationBarTextStyle":"black"
+  }
+}

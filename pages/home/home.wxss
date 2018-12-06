@@ -1,0 +1,48 @@
+/* pages/home/home.wxss */
+.home{
+  height: 100vh;
+}
+
+.home1{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.navi{
+  height: 80rpx;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border-top: 2rpx solid #FFFFFF;
+}
+
+.character{
+  height: 500rpx;
+  width: 350rpx;
+  /* margin: 260rpx auto 0 auto; */
+  position: fixed;
+  bottom: 100rpx;
+  right: 0;
+}
+
+.navito{
+  height: 20rpx;
+  width: 40rpx;
+  position: fixed;
+  /* bottom: 0; */
+  right: 40rpx;
+  border-top: 6rpx solid #FFFFFF;
+}
+
+.n1{
+  bottom: 20rpx;
+}
+
+.n2{
+  bottom: 35rpx;
+}
+
+.n3{
+  bottom: 5rpx;
+}

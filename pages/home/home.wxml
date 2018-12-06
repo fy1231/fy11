@@ -1,0 +1,26 @@
+<!--pages/home/home.wxml-->
+<swiper class="home" indicator-dots="true" indicator-color="white" indicator-active-color="#2EABED">
+  <swiper-item>
+    <view class="home1">
+      <image style="width: 100%; height: 100%;" mode="aspectFill" src="../../image/9.png"></image>
+      <view class="character">
+       <image style="width: 100%; height: 100%;" mode="aspectFill" src="../../image/{{ character == 0 ? 4 : 6}}.gif"></image>
+      </view>
+    </view>
+  </swiper-item>
+
+  <swiper-item></swiper-item>
+
+</swiper>
+
+
+
+<view class="navi">
+</view>
+
+<view class="navito n1" bindtap="detail">
+</view>
+<view class="navito n2" bindtap="detail">
+</view>
+<view class="navito n3">
+</view>

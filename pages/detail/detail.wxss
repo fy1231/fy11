@@ -1,0 +1,102 @@
+/* pages/detail/detail.wxss */
+.detail{
+  background-color: #F8F8F8;
+  max-height: 2900rpx;
+}
+
+.bottombar{
+  height: 90rpx;
+  width: 100%;
+  display: flex;
+  background-color: #2EABED;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  padding-top: 30rpx;
+  padding-left: 24rpx;
+}
+
+.title2{
+  padding-left: 32rpx;
+}
+
+.tag{
+  height: 130rpx;
+  width: 690rpx;
+  background-color: white;
+  margin: 10rpx auto 0 auto;
+  position: relative;
+}
+
+.tag1{
+  left: 34rpx;
+  top: 42rpx;
+  position: absolute;
+}
+
+.tag2{
+  left: 200rpx;
+  top: 46rpx;
+  position: absolute;
+}
+
+.tag3{
+  left: 284rpx;
+  top: 46rpx;
+  position: absolute;
+}
+
+.down{
+  height: 80rpx;
+}
+
+.up{
+  height: 14rpx;
+}
+
+.lot{
+  height: 230rpx;
+  width: 690rpx;
+  background-color: white;
+  margin: 10rpx auto 0 auto;
+  position: relative;
+  /* display: flex; */
+}
+
+.lot1{
+  left: 34rpx;
+  top: 24rpx;
+  position: absolute;
+}
+
+.lot2{
+  left: 118rpx;
+  top: 24rpx;
+  position: absolute;
+}
+
+.lot3{
+  left: 34rpx;
+  top: 94rpx;
+  position: absolute;
+}
+
+.lot4{
+  left: 118rpx;
+  top: 94rpx;
+  position: absolute;
+}
+
+.btn{
+  height: 90rpx;
+  width: 690rpx;
+  display: flex;
+  background-color: white;
+  margin: 16rpx auto 10rpx auto;
+  align-items: center;
+  justify-content: center;
+}

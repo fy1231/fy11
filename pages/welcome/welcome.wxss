@@ -1,0 +1,45 @@
+/* pages/welcome/welcome.wxss */
+.changecharacter{
+  height: 100vh;
+  background-color: #F5F5F5 100%;
+
+}
+
+.character{
+  height: 648rpx;
+  width: 452rpx;
+  margin: 260rpx auto 0 auto;
+}
+
+.bottombar{
+  height: 90rpx;
+  width: 100%;
+  display: flex;
+  background-color: #2EABED;
+  position: fixed;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrowright{
+  width: 20rpx;
+  height: 20rpx;
+  border-top: 8rpx solid #2EABED;
+  border-right: 8rpx solid #2EABED;
+  position: fixed;
+  right: 64rpx;
+  transform: rotate(45deg);
+  top: 650rpx;
+}
+
+.arrowleft{
+  width: 20rpx;
+  height: 20rpx;
+  border-top: 8rpx solid #2EABED;
+  border-right: 8rpx solid #2EABED;
+  position: fixed;
+  left: 64rpx;
+  transform: rotate(225deg);
+  top: 650rpx;
+}

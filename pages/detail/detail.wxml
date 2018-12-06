@@ -1,0 +1,71 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail">
+  <image style="width: 750rpx; height: 614rpx;" mode="aspectFill" src="../../image/8.png"></image>
+  <view class="title" style="font-family:PingFangSC-regular;font-size:20px;color:#101010">12月5日  星期三</view>
+  <view class="title2" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">戊戌年九月十四</view>
+  <view class="up"></view>
+
+  <view class="lot">
+    <view class="lot1" style="font-family:PingFangSC-regular;font-size:14px;color:#E85C5B">吉穿：</view>
+    <view class="lot2" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">红、紫、玫红、粉红色上衣</view>
+    <view class="lot3" style="font-family:PingFangSC-regular;font-size:14px;color:#E85C5B">讲解：</view>
+    <view class="lot4" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">未为土，土生金，金为白色，大环境生你的意思，办事易成，开心轻松</view>
+  </view>
+
+  <view class="btn" bindtap="article"><view style="font-family:PingFangSC-regular;font-size:14px">查看详情</view></view>
+
+  <view class="title" style="font-family:PingFangSC-regular;font-size:20px;color:#101010">未来几天</view>
+  <view class="up"></view>
+  <view class="tag">
+    <view class="tag1" style="font-family:PingFangSC-regular;font-size:16px;color:#E85C5B">星期二</view>
+    <view class="tag2" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">吉穿：</view>
+    <view class="tag3" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">红、紫、玫红、粉红色上衣</view>
+  </view>
+
+  <view class="tag">
+    <view class="tag1" style="font-family:PingFangSC-regular;font-size:16px;color:#E85C5B">星期二</view>
+    <view class="tag2" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">吉穿：</view>
+    <view class="tag3" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">红、紫、玫红、粉红色上衣</view>
+  </view>
+
+  <view class="tag">
+    <view class="tag1" style="font-family:PingFangSC-regular;font-size:16px;color:#E85C5B">星期二</view>
+    <view class="tag2" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">吉穿：</view>
+    <view class="tag3" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">红、紫、玫红、粉红色上衣</view>
+  </view>
+
+  <view class="tag">
+    <view class="tag1" style="font-family:PingFangSC-regular;font-size:16px;color:#E85C5B">星期二</view>
+    <view class="tag2" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">吉穿：</view>
+    <view class="tag3" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">红、紫、玫红、粉红色上衣</view>
+  </view>
+
+  <view class="tag">
+    <view class="tag1" style="font-family:PingFangSC-regular;font-size:16px;color:#E85C5B">星期二</view>
+    <view class="tag2" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">吉穿：</view>
+    <view class="tag3" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">红、紫、玫红、粉红色上衣</view>
+  </view>
+
+  <view class="tag">
+    <view class="tag1" style="font-family:PingFangSC-regular;font-size:16px;color:#E85C5B">星期二</view>
+    <view class="tag2" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">吉穿：</view>
+    <view class="tag3" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">红、紫、玫红、粉红色上衣</view>
+  </view>
+
+  <view class="tag">
+    <view class="tag1" style="font-family:PingFangSC-regular;font-size:16px;color:#E85C5B">星期二</view>
+    <view class="tag2" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">吉穿：</view>
+    <view class="tag3" style="font-family:PingFangSC-regular;font-size:14px;color:#101010">红、紫、玫红、粉红色上衣</view>
+  </view>
+
+  <view class="down"></view>
+</view>
+
+<template name="bottombar">
+  <view class="bottombar" bindtap="navig">
+      <view style="font-family:PingFangSC-regular;font-size:16px;color:white">{{text}}</view>
+  </view>
+</template>
+
+<template is="bottombar" data="{{...bottombar}}">
+</template>
